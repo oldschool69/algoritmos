@@ -12,7 +12,7 @@ def dfs(nome):
         if not pessoa in verificadas:
             balance = grafo[pessoa]['balance']
             if pessoa_e_milionaria(balance):
-                print(pessoa + " é um milhionario!, saldo de " + str(balance))
+                print(pessoa + " é um milionário!, saldo de " + str(balance))
                 return True
             else:
                 fila_de_pesquisa += grafo[pessoa]["friends"]
