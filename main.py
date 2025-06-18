@@ -1,15 +1,19 @@
 from selection_sort import ordenacao_por_selecao
 from quick_sort import quicksort
 from grafo_dfs import dfs
+from busca_binaria import busca_binaria
 
              
 
 def main():
-    # print(ordenacao_por_selecao([5, 3, 6, 2, 10]))
-    # print(ordenacao_por_selecao([1, 10, -1, 2, 100, 1005, 1002]))
-    # print(quicksort([10, 5, 2, 3]))
-    # print(quicksort([1000, 15, 0, 12, 6, 6, 9, 11, 10001, 555, 9, 10]))
-    dfs("voce")
+    print(busca_binaria([1, 2, 3, 4, 5, 6, 7, 8], 3))
+    print(busca_binaria([1, 2, 3, 4, 5, 6, 7, 8], 33))
+    print(busca_binaria([1, 2, 3, 4, 5, 6, 7, 8], 1))
+    print(busca_binaria([1, 2, 3, 4, 5, 6, 7, 8], 8))
+    print(busca_binaria([3], 3))
+    print(busca_binaria([3], 33))
+    print(busca_binaria([], 3))
+    
 
 if __name__ == "__main__":
     main()
