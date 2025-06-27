@@ -3,6 +3,7 @@ from quick_sort import quicksort
 from grafo_dfs import dfs
 from busca_binaria import busca_binaria
 from dijkstra import dijkstra
+from greed_melhores_estacoes_radio import localizar_melhores_estacoes
 
              
 
@@ -14,7 +15,8 @@ def main():
     # print(busca_binaria([3], 3))
     # print(busca_binaria([3], 33))
     # print(busca_binaria([], 3))
-    dijkstra()
+    # dijkstra()
+    localizar_melhores_estacoes()
     
 
 if __name__ == "__main__":
