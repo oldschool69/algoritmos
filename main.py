@@ -4,7 +4,7 @@ from grafo_dfs import dfs
 from busca_binaria import busca_binaria
 from dijkstra import dijkstra
 from greed_melhores_estacoes_radio import localizar_melhores_estacoes
-
+from programacao_dinamica import problema_da_mochila, knapsack
              
 
 def main():
@@ -16,7 +16,9 @@ def main():
     # print(busca_binaria([3], 33))
     # print(busca_binaria([], 3))
     # dijkstra()
-    localizar_melhores_estacoes()
+    # localizar_melhores_estacoes()
+    
+    problema_da_mochila()
     
 
 if __name__ == "__main__":
